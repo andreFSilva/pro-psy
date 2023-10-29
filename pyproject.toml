@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "pro-psy"
+version = "0.1.0"
+description = ""
+authors = ["andreFSilva <andrealekhine@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.12.0"
+django = "^4.2.6"
+django-extensions = "^3.2.3"
+python-decouple = "^3.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
